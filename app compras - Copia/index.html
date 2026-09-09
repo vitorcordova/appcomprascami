@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add to Cart</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+<script type='text/javascript' src='https://api.netlify.com/sVgoiLMCgax0GJFqeyl8jNWnMFSzURM7L4_Mxn32y858G7MRNKFjl1nGuFSiRX5zvk9Q4TlRnqOPG1NAitPajEj9BCMQSIA-cAhjNLI35AHu9pfUyDHFeL-JNaQu98U-utwzMKnVrDUap5sDp_ANWaAxpQPLMTroqLe0336-WJ7Gxe6ZmZl37qaNi2RKqrHGhbrpM49YqTazEgZhbA45GL9QvpHFecQ_xbVBJEYp_38VEg8D7vVMj1Lo9qgURsWjeyQ57vx1QugNny_v4-GuTtHhnNfC7MK23YMKTIac0VucWRmzRsEBrLsvnjybIMgsi9qxPftbZEWzLIRXqsmR8DPoNXlG9925WTpFc_v38EglcSjb_6NfPYelSZwz_Gzla_OOw3fbL6-VxoXI7RhgK-woTIyuqLJFgttO5nu6yqB8ke18DoHquIzDOB_Cq1kIlqyV-DiUDxMtANwnYl3kFjo4V-Z5CZCfMsr6oRXnkrYMQMYXy6l_djuDb_7iuulAuVKno3F8UCUyZpI0lTDF'></script></head>
+<body>
+    <div class="container">
+        <img src="assets/bunny.jpg" width="300px">
+    <input type="text" id="input_fild" placeholder="Bread">
+    <button id="add-button" >Add to cart</button>
+    <ul id="shopping-list">
+
+    </ul>
+    <button id="history-button">Histórico</button>
+    </div>
+
+    <div id="history-overlay" class="hidden">
+        <div id="history-panel">
+            <div class="history-header">
+                <h3>Itens apagados</h3>
+                <button id="close-history-button">&times;</button>
+            </div>
+            <ul id="history-list"></ul>
+            <button id="clear-history-button">Limpar histórico</button>
+        </div>
+    </div>
+
+    <!--<script src="src/functions.js" type="module"></script>-->
+    <script src="src/script.js" type="module"></script>
+</body>
+</html>
